@@ -1,0 +1,46 @@
+
+    /****** Color violeta para navbar ****/
+    .bg-violet {
+      background-color: rgb(0, 0, 0);
+    }
+
+    /****** Sticky navbar ********/
+    nav {
+      top: 0;
+      z-index: 99;
+    }
+
+    /****** imagen de fondo para jumbotron ****/
+    .jumbotron {
+      background-image: url("imagenes/wallpaperhero.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+    }
+
+    .mt-6 {
+      margin-top: 20vh;
+    }
+
+    #contraste-jumbotron {
+      background-color: rgba(255, 68, 0, 0.479);
+      margin: 0 auto;
+    }
+
+    /******** Footer style **********/
+    footer ul {
+      list-style-type: none;
+    }
+
+    footer ul li a {
+      color: white;
+    }
+
+    #team {
+      background-color: yellow;
+    }
+
+    footer ul {
+      margin: 0;
+      padding: 0;
+    }

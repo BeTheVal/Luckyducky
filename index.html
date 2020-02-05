@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi primera página en Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper" class="container-fluid">
+    <!-- COMIENZO DE BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-violet position-sticky">
+      <a class="navbar-brand" href="#"><img src="imagenes/logo.png" height="48" alt="DuckyLucky"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#hero">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#presentacion">Presentación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#porfolio">Contacto</a>
+          </li>
+
+        </ul>
+
+    </nav>
+    <!-- HERO SECTION CON JUMBOTRON DE BOOTSTRAP -->
+    <header id="hero">
+      <div class="jumbotron text-center container-fluid">
+        <div class="row mt-6">
+          <div id="contraste-jumbotron" class="col-12 col-md-10 col-lg-6 rounded-pill py-4 ">
+            <h1 class="display-4 mt-4 font-weight-bolder text-light">Ducky Lucky</h1>
+            <p class="lead font-weight-bold text-light">Tienda de patitos número 1 en España</p>
+            <a class="btn btn-outline-dark btn-lg" href="#" role="button">Cuack!</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- AQUÍ IRÍA LA PRESENTACIÓN-->
+    <section id="presentacion"></section>
+
+    <!-- SECCIÓN HISTORIA CON GRID -->
+    <section id="historia" class="py-5 bg-light">
+      <div class="section-title my-5">
+        <p class="display-4 font-weight-bold border-bottom border-warning w-75 text-center mx-auto">¿Cómo empezamos en
+          esto?
+        </p>
+
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 p-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic assumenda pariatur, consequuntur
+            necessitatibus recusandae cum omnis, quis, veritatis nobis blanditiis voluptatibus enim quibusdam. Commodi
+            tenetur itaque animi dolorum? Quisquam, sint!
+            Suscipit non, pariatur reprehenderit laborum saepe assumenda doloremque. Repellendus, praesentium corporis?
+            Molestias tenetur, expedita provident voluptatibus nostrum excepturi minima velit minus sint quod dolor
+            voluptas explicabo tempore hic incidunt! Inventore.
+            Illo excepturi corrupti, alias perferendis maiores quam consequatur dolor praesentium dolorum a rerum
+            placeat reiciendis quisquam doloremque nihil aliquid est sapiente harum non facere rem dolorem laborum
+            labore? Laboriosam, a.
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic assumenda pariatur, consequuntur
+            necessitatibus recusandae cum omnis, quis, veritatis nobis blanditiis voluptatibus enim quibusdam. Commodi
+            tenetur itaque animi dolorum? Quisquam, sint!
+            Suscipit non, pariatur reprehenderit laborum saepe assumenda doloremque. Repellendus, praesentium corporis?
+            Molestias tenetur, expedita provident voluptatibus nostrum excepturi minima velit minus sint quod dolor
+            voluptas explicabo tempore hic incidunt! Inventore.
+            Illo excepturi corrupti, alias perferendis maiores quam consequatur dolor praesentium dolorum a rerum
+            placeat reiciendis quisquam doloremque nihil aliquid est sapiente harum non facere rem dolorem laborum
+            labore? Laboriosam, a.
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic assumenda pariatur, consequuntur
+            necessitatibus recusandae cum omnis, quis, veritatis nobis blanditiis voluptatibus enim quibusdam. Commodi
+            tenetur itaque animi dolorum? Quisquam, sint!
+            Suscipit non, pariatur reprehenderit laborum saepe assumenda doloremque. Repellendus, praesentium corporis?
+            Molestias tenetur, expedita provident voluptatibus nostrum excepturi minima velit minus sint quod dolor
+            voluptas explicabo tempore hic incidunt! Inventore.
+            Illo excepturi corrupti, alias perferendis maiores quam consequatur dolor praesentium dolorum a rerum
+            placeat reiciendis quisquam doloremque nihil aliquid est sapiente harum non facere rem dolorem laborum
+            labore? Laboriosam, a.
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lcqTaBtZSG8" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="py-5">
+      <div class="section-title my-5">
+        <p class="display-4 font-weight-bold border-bottom border-danger w-75 text-center mx-auto">Quienes somos</p>
+
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 p-5">
+            <div class="card">
+              <img src="https://i.picsum.photos/id/802/200/200.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Francisco Juan Moratalla</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-5">
+            <div class="card">
+              <img src="https://picsum.photos/200.jpg" class="card-img-top p-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sacha Baron Cohen</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-5">
+            <div class="card border-0">
+              <img src="https://picsum.photos/200.jpg" class="card-img-top rounded-circle" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sebastian Antonio Montagut</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  Leer más
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Pepe López</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel excepturi facilis qui
+                        consectetur fugiat voluptatum adipisci reiciendis, temporibus non ducimus, saepe recusandae
+                        expedita rem exercitationem modi, quae a impedit.
+                        Cupiditate enim minima veniam ducimus ratione, saepe tempora architecto aut nobis non ut
+                        possimus vel, odio iste dignissimos id nostrum nisi voluptate distinctio accusamus impedit
+                        praesentium corporis ab aliquid! Possimus!
+                        Deserunt perferendis ab officiis omnis tempore suscipit sequi, voluptas minima hic id. Itaque
+                        fuga odio ipsa veniam eveniet necessitatibus maiores non iusto quia, rerum quod perspiciatis
+                        dicta, sint deserunt dignissimos.
+                        Voluptatibus, assumenda. Officia impedit ut doloremque aliquam dolorem saepe dicta, facilis
+                        incidunt? Reiciendis quod placeat, error ducimus aperiam consequatur rem accusantium quam cumque
+                        commodi beatae quo, laborum quia explicabo provident.
+                        Tempore, unde. Explicabo exercitationem nemo ipsam esse dolorum delectus illo quisquam iusto
+                        quasi numquam nihil a amet culpa sequi saepe dignissimos, aspernatur quibusdam ducimus similique
+                        nesciunt inventore vero possimus distinctio!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel excepturi facilis qui
+                        consectetur fugiat voluptatum adipisci reiciendis, temporibus non ducimus, saepe recusandae
+                        expedita rem exercitationem modi, quae a impedit.
+                        Cupiditate enim minima veniam ducimus ratione, saepe tempora architecto aut nobis non ut
+                        possimus vel, odio iste dignissimos id nostrum nisi voluptate distinctio accusamus impedit
+                        praesentium corporis ab aliquid! Possimus!
+                        Deserunt perferendis ab officiis omnis tempore suscipit sequi, voluptas minima hic id. Itaque
+                        fuga odio ipsa veniam eveniet necessitatibus maiores non iusto quia, rerum quod perspiciatis
+                        dicta, sint deserunt dignissimos.
+                        Voluptatibus, assumenda. Officia impedit ut doloremque aliquam dolorem saepe dicta, facilis
+                        incidunt? Reiciendis quod placeat, error ducimus aperiam consequatur rem accusantium quam cumque
+                        commodi beatae quo, laborum quia explicabo provident.
+                        Tempore, unde. Explicabo exercitationem nemo ipsam esse dolorum delectus illo quisquam iusto
+                        quasi numquam nihil a amet culpa sequi saepe dignissimos, aspernatur quibusdam ducimus similique
+                        nesciunt inventore vero possimus distinctio!
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- AQUÍ TERMINA LA VENTANA MODAL -->
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-5">
+            <div class="card">
+              <img src="https://picsum.photos/200.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pepe López</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <section id="Tienda"></section>
+
+    <section id="Contacto"></section>
+
+    <!-- FOOTER CON GRID -->
+
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 p-4 mx-auto">
+            <img src="imagenes/logo.png" alt="DuckyLucky" width="100">
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-4 mx-auto">
+            <p>SITE MAP</p>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#presentacion">Presentación</a></li>
+              <li><a href="#historia">Historia</a></li>
+              <li><a href="#team">Quienes Somos</a></li>
+              <li><a href="#galeria">Galería</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-4 mx-auto">
+            <p>REDES SOCIALES</p>
+            <ul>
+              <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Facebook</a>
+              </li>
+              <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Twitter</a></li>
+              <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Instagram</a></li>
+              <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Youtube</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 p-4 mx-auto">
+
+          </div>
+        </div>
+      </div>
+
+
+    </footer>
+  </div>
+  <!-- Enlace con las librerias de JScript de utilizadas por Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="javascripts/misjs.js"></script>
+</body>
+
+</html>
